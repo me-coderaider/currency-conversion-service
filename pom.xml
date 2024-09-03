@@ -73,6 +73,15 @@
 			<artifactId>opentelemetry-exporter-zipkin</artifactId>
 		</dependency>
 
+		<!--
+		enable tracking of REST API calls made using FEIGN for SpringBoot V3.x
+ -->
+		<dependency>
+			<groupId>io.github.openfeign</groupId>
+			<artifactId>feign-micrometer</artifactId>
+		</dependency>
+
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
